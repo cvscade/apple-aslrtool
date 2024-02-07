@@ -1,4 +1,4 @@
-![Crates.io Version](https://img.shields.io/crates/v/https%3A%2F%2Fcrates.io%2Fcrates%2Fapple-aslrtool)
+![Crates.io Version](https://img.shields.io/crates/v/apple-aslrtool)
 
 # apple-aslrtool
 
