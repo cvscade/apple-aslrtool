@@ -1,3 +1,5 @@
+![Crates.io Version](https://img.shields.io/crates/v/https%3A%2F%2Fcrates.io%2Fcrates%2Fapple-aslrtool)
+
 # apple-aslrtool
 
 Simple tool to fetch the ASLR slide for a given process on Apple Silicon and Intel Mac systems.
