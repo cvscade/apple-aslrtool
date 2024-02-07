@@ -1,6 +1,4 @@
-![Crates.io Version](https://img.shields.io/crates/v/apple-aslrtool)
-
-# apple-aslrtool
+# apple-aslrtool ![Crates.io Version](https://img.shields.io/crates/v/apple-aslrtool) ![Crates.io Downloads](https://img.shields.io/crates/d/apple-aslrtool) ![Crates.io License](https://img.shields.io/crates/l/apple-aslrtool)
 
 Simple tool to fetch the ASLR slide for a given process on Apple Silicon and Intel Mac systems.
 
