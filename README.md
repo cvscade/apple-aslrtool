@@ -1,4 +1,4 @@
-# apple-aslrtool ![Crates.io Version](https://img.shields.io/crates/v/apple-aslrtool) ![Crates.io Downloads](https://img.shields.io/crates/d/apple-aslrtool) ![Crates.io License](https://img.shields.io/crates/l/apple-aslrtool)
+# apple-aslrtool ![Crates.io Version](https://img.shields.io/crates/v/apple-aslrtool) ![Crates.io License](https://img.shields.io/crates/l/apple-aslrtool)
 
 Simple tool to fetch the ASLR slide for a given process on Apple Silicon and Intel Mac systems.
 
@@ -16,6 +16,11 @@ Simple tool to fetch the ASLR slide for a given process on Apple Silicon and Int
 - `apple-aslrtool --name=<pid>`: Fetch the ASLR slide for the given process using a name. The first found task will be used. **Any tasks using hardened runtime will be ignored!**
 
 You can also provide an additional `--base-address` flag in case you want to override the default `0x100000000` value.
+
+# Installation
+
+- `cargo install apple-aslrtool`
+- `cargo binstall apple-aslrtool`
 
 # Requirements
 
