@@ -1,6 +1,11 @@
 [package]
 name = "apple-aslrtool"
 version = "1.0.0"
+authors = ["Cascade"]
+license = "MIT OR Apache-2.0"
+description = "Simple utility to fetch ASLR slide on macOS >= 10.7 (recommended macOS >= 11) for x86_64 and aarch64 binaries"
+homepage = "https://github.com/cvscade/apple-aslrtool"
+repository = "https://github.com/cvscade/apple-aslrtool"
 edition = "2021"
 
 [dependencies]
@@ -8,3 +13,13 @@ clap = { version = "4.4.18", features = ["derive"] }
 libc = "0.2.147"
 mach2 = "0.4.1"
 psutil = "3.2.2"
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
+rpath = false
+lto = "fat"
+strip = "symbols"
+panic = "abort"
