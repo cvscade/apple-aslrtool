@@ -5,10 +5,7 @@ Simple tool to fetch the ASLR slide for a given process on Apple Silicon and Int
 # Features
 
 - Detect hardened runtime
-    - Note: If you have SIP disabled, this will always return `false` as the hardened runtime is enforced by SIP.
-    - You can remove hardened runtime from a binary by removing its signature using `codesign --remove-signature`.
-- Cross-architecture support (x86_64 binary can pull slide of aarch64 task and vice versa) 
-    - Note: **YOUR MILEAGE MAY VARY!** arm64e is not officially supported and may require additional work on your part.
+- Cross-architecture suppor to some extent
 
 # Usage
 
