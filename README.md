@@ -5,7 +5,7 @@ Simple tool to fetch the ASLR slide for a given process on Apple Silicon and Int
 # Features
 
 - Detect hardened runtime
-- Cross-architecture suppor to some extent
+- Cross-architecture support to some extent
 
 # Usage
 
